@@ -1,9 +1,9 @@
 @echo off
 echo /###########################################################\
 echo [                 123Clean - Cory Green                     ]
-echo [                         ~v.1                              ]
+echo [                         ~v.1.1                            ]
 echo [                    ~Apache License~                       ]
-echo [ WARNING: ALL FILES IN TEMP & DOWNLOADS WILL BE DELETED.   ]
+echo [ WARNING: ALL FILES IN TEMP AND DOWNLOADS WILL BE DELETED. ]
 echo [        If you don't know what that is, don't worry.       ]
 echo [       Click the [X] if you need to quit, other wise       ]
 echo \###########################################################/
