@@ -24,6 +24,6 @@ set /p user=>>:
 
 del C:/Users/%user%/Downloads
 
-echo Cleaning Complete, Thanks for using 123Clean! Press any key to quit!
+echo Cleaning Complete! Thanks for using 123Clean! Press any key to quit!
 pause >nul
 exit
