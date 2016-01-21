@@ -20,8 +20,10 @@ echo Starting to clear Download folder in 5 seconds, quit now if you do NOT want
 ping localhost -n 5
 cls
 echo What is your User Account name (NO Captialization) (Also this might take a long time, depending on the size.)
-set /p user=>>: 
-
+set /p "user= >>: "
+cls
+echo Press any key %user%...
+pause >nul
 del C:/Users/%user%/Downloads
 
 echo Cleaning Complete! Thanks for using 123Clean! Press any key to quit!
