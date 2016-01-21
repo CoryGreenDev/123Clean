@@ -17,12 +17,7 @@ del *.
 echo Cleaned directory TEMP.
 echo Starting to clear Download folder in 5 seconds, quit now if you do NOT want this to be deleted.
 ping localhost -n 5 >nul
-cls
-echo What is your Drive Letter? (This will be where you're Windows is stored.)
-set /p "drive= >>: "
-echo Press any key %user%...
-pause >nul
-del %drive%/Users/%UserProfile%/Downloads
+del C:\Users\%UserProfile%\Downloads\*.
 
 echo Cleaning Complete! Thanks for using 123Clean! Press any key to quit!
 pause >nul
