@@ -1,7 +1,7 @@
 @echo off
 echo /###########################################################\
 echo [                 123Clean - Cory Green                     ]
-echo [                         ~v.2.0                            ]
+echo [                         ~v.3.7                            ]
 echo [                    ~Apache License~                       ]
 echo [ WARNING: ALL FILES IN TEMP AND DOWNLOADS WILL BE DELETED. ]
 echo [        If you don't know what that is, don't worry.       ]
@@ -12,17 +12,11 @@ pause
 echo Please Wait...
 
 cd /d %temp%   
-for /r %%a in (*.*) do (   
-del /f /q %~a   
-) >nul   
-cd /d "%UserProfile%\Local Settings\Temporary Internet Files   
-for /r %%b in (*.*) do (   
-del /f /q %~b   
-) >nul  
+del *.
 
 echo Cleaned directory TEMP.
 echo Starting to clear Download folder in 5 seconds, quit now if you do NOT want this to be deleted.
-ping localhost -n 5
+ping localhost -n 5 >nul
 cls
 echo What is your Drive Letter? (This will be where you're Windows is stored.)
 set /p "drive= >>: "
